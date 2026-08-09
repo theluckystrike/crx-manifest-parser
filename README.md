@@ -11,6 +11,11 @@ unknown fields by retaining them in `Raw`.
 This package is the parsing core used by the extension analysis tools at
 **[zovo.one](https://zovo.one)**.
 
+A manifest is ordinary JSON, so an unfamiliar one is usually quicker to read
+pretty-printed first; a client-side
+[JSON formatter and validator](https://zovo.one/free-tools/json-formatter)
+will format it without uploading the file.
+
 ## Install
 
 ```sh

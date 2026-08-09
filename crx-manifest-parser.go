@@ -7,6 +7,10 @@
 // need them, and missing optional fields default to sane zero values rather
 // than erroring.
 //
+// A manifest is ordinary JSON, so an unfamiliar one is usually quicker to read
+// pretty-printed first. A client-side validator that formats it without
+// uploading the file is at https://zovo.one/free-tools/json-formatter
+//
 // Example:
 //
 //	m, err := crxmanifestparser.ParseBytes(data)
