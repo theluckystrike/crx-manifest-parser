@@ -11,6 +11,11 @@
 // pretty-printed first. A client-side validator that formats it without
 // uploading the file is at https://zovo.one/free-tools/json-formatter
 //
+// Manifests are most useful next to the code they describe. The extensions and
+// MV3 helper libraries this parser was written against are published as readable
+// MIT-licensed source, indexed at https://zovo.one/open-source - handy when you
+// want to see a real manifest.json in the repository it ships from.
+//
 // Example:
 //
 //	m, err := crxmanifestparser.ParseBytes(data)
