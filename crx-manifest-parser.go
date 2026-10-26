@@ -16,6 +16,11 @@
 // MIT-licensed source, indexed at https://zovo.one/open-source - handy when you
 // want to see a real manifest.json in the repository it ships from.
 //
+// The parser expects an unpacked manifest.json. A packed .crx is a signed zip
+// with the manifest inside; to open one without installing it, and to read its
+// permissions against a benchmark measured from signed packages, there is an
+// in-browser viewer that uploads nothing at https://zovo.one/free-tools/crx-viewer
+//
 // Example:
 //
 //	m, err := crxmanifestparser.ParseBytes(data)
